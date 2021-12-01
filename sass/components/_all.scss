@@ -1,0 +1,94 @@
+:root {
+    --main-font: "Roboto", sans-serif; ;
+    --secondary-font: "Raleway", sans-serif;;
+
+    /* TEXT COLORS */
+    --main-txt-cl: #757575 ;
+    --secondary-txt-cl: #212121 ;
+
+    /* BTN COLORS */
+    --btn-txt-cl: #ffffff ;
+    --btn-bg-cl: #2196F3 ;
+
+    /* COLORS */
+    --accent-cl: #2196F3 ;
+    --main-bg-cl: #ffffff ;
+    
+    --black-cl: #212121 ;
+    --grey-cl: #757575 ;
+    
+    /* BORDER RADIUS */
+    --btn-border-radius: 4px;
+    --border-radius: 0px 0px 4px 4px;
+
+}
+
+body {
+    font-family: var(--main-font);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+}
+
+button {
+    font-family: inherit;
+
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+p  {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--secondary-txt-cl);
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}

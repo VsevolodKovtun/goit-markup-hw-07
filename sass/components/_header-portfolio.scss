@@ -1,0 +1,15 @@
+.link-portfolio:visited {
+    color: var(--accent-cl);
+}
+
+.link-portfolio::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    display: block;
+    border-radius: 2px;
+    background-color: var(--accent-cl);
+}
